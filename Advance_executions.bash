@@ -11,7 +11,13 @@ set –x
 ## ad1 
 ## Move the index to the data folder by "$cp -avr IGC_index /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/data/ref_index"
 
-## ad2
+## ad2 moving cat
+##$ cp /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/735_catalogs/72164642_SF08..cat /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/results/cat
+##$ cp /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/735_catalogs/72164642_SF08_.cat /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/results/cat
+##$ cp /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/735_catalogs/30756617_SF06..cat /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/results/cat
+##$ cp /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/735_catalogs/30756617_SF06_.cat /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/results/cat
+##$ cp /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/735_catalogs/72164642_SF07..cat /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/results/cat
+##$ cp /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/735_catalogs/72164642_SF07_.cat /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/results/cat
 
 
 
