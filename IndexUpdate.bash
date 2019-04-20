@@ -10,7 +10,7 @@ set –x
 ## And use command in 4.1
 
 ## 4.1 
-## Move the index to the data folder by "$ cp -avr IGC_index /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/Index_update_hGEM/data/ref_index"
+## Move the index to the data folder by "$ find /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/IGC_index/ -type f -print0 | xargs -0 cp -t /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/Index_updata_hGEM/data/ref_index/"
 
 
 ##Then replace "./meta_data/data" with "/pylon5/cc5fpcp/weiliang/BMBL/metaqubic/Index_update_hGEM/data"
