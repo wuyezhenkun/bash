@@ -9,7 +9,7 @@ set –x
 ## Method used: copy commands 3, 4, 5 from general pipeline and use 4.1 and 4.2 in advance executions
 
 ## ad1 
-## Move the index to the data folder by "$cp -avr IGC_index /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/data/ref_index"
+## Move the index to the data folder by "$find /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/IGC_index/ -type f -print0 | xargs -0 cp -t /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/data/ref_index/"
 
 ## ad2 moving cat
 ##$ cp /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/735_catalogs/72164642_SF08..cat /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/results/cat
