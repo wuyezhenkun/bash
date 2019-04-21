@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p PM --mem=128GB
+#SBATCH --ntasks-per-node 28
+#SBATCH -t 24:00:00
+# echo commands to stdout 
+set –x
+
+## Method used: copy commands from section 4.1
+
+## Copy the folder IGC_index to data/ref_index
+## $ find /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/IGC_index/ -type f -print0 | xargs -0 cp -t /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_no_sub_directory/data/ref_index
+
+##Then replace "./meta_data/data" with "/pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_no_sub_directory/data"
+##Replace "./meta_data/results" with "/pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_no_sub_directory/results"
+##Replace "./master" with "/home/weiliang/BMBL/metaqubic-master"
+
+
+## command 1  (mapping)
+/home/weiliang/BMBL/metaqubic-master/runmeta --mapping -s ./meta_data/data/samples/ -ind ./meta_data/data/ref_index/ -o ./meta_data/results/align_out/ 
