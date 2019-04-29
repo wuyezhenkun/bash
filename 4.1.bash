@@ -17,4 +17,4 @@ set –x
 
 
 ## command 1  (mapping)
-/home/weiliang/BMBL/metaqubic-master/runmeta --mapping -s /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/data/samples/ -ind /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/data/ref_index/ -o /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/results/align_out/
+/home/weiliang/BMBL/metaqubic-master/runmeta --mapping -s /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/data/samples -ref /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/data/ref/IGC_ref.fa -ind /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/data/ref_index -o1 /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/results/align_out -o2 /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/results/cat
