@@ -9,12 +9,12 @@ set –x
 ## Method used: copy commands from section 4.1
 
 ## Copy the folder IGC_index to data/ref_index
-## $ find /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/IGC_index/ -type f -print0 | xargs -0 cp -t /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_no_sub_directory/data/ref_index
+## $ find /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/IGC_index/ -type f -print0 | xargs -0 cp -t /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/data/ref_index
 
-##Then replace "./meta_data/data" with "/pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_no_sub_directory/data"
-##Replace "./meta_data/results" with "/pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_no_sub_directory/results"
+##Then replace "./meta_data/data" with "/pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/data"
+##Replace "./meta_data/results" with "/pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/results"
 ##Replace "./master" with "/home/weiliang/BMBL/metaqubic-master"
 
 
 ## command 1  (mapping)
-/home/weiliang/BMBL/metaqubic-master/runmeta --mapping -s /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_no_sub_directory/data/samples/ -ind /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_no_sub_directory/data/ref_index/ -o /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_no_sub_directory/results/align_out/ 
+/home/weiliang/BMBL/metaqubic-master/runmeta --mapping -s /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/data/samples/ -ind /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/data/ref_index/ -o /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.1_test/results/align_out/
