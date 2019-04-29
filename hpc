@@ -1,0 +1,2 @@
+sbatch -p LM
+squeue -u weiliang
