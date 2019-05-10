@@ -20,7 +20,7 @@ set –x
 
 
 ## general_pipeline command 1  (mapping)
-/home/weiliang/BMBL/metaqubic-master/runmeta --mapping -s /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/Index_update_hGEM/data/samples/ -ind /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/Index_update_hGEM/data/ref_index/ -o /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/Index_update_hGEM/results/align_out/ 
+/home/weiliang/BMBL/metaqubic-master/runmeta --mapping -s /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/Index_update_hGEM/data/samples -ref /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/Index_update_hGEM/data/ref/IGC_ref.fa -ind /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/Index_update_hGEM/data/ref_index -o1 /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/Index_update_hGEM/results/align_out -o2 /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/Index_update_hGEM/results/cat
 
 
 ## general_pipeline command 2  (CatToMat)
