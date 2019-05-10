@@ -28,7 +28,7 @@ set –x
 
 
 ## Advance_executions command 1  (mapping)
-/home/weiliang/BMBL/metaqubic-master/runmeta --mapping -s /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/data/samples/ -ind /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/data/ref_index/ -o /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/results/align_out/ 
+/home/weiliang/BMBL/metaqubic-master/runmeta --mapping -s /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/data/samples -ref /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/data/ref/IGC_ref.fa -ind /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/data/ref_index -o1 /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/results/align_out -o2 /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/advance_executions/results/cat
 
 
 ## Advance_executions command 2  (CatToMat)
